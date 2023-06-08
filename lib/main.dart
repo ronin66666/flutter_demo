@@ -2,7 +2,8 @@ import 'package:demo/example/main_page.dart';
 import 'package:demo/mj/01_smaple_list_page/list_page.dart';
 import 'package:demo/example/counter/counter.dart';
 import 'package:flutter/material.dart';
-
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'example/components/components.dart';
 import 'mj/02_counter/counter.dart';
 
 void main() {
@@ -16,5 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MainPage();
+
+    // return BlocSelector<>
   }
 }
