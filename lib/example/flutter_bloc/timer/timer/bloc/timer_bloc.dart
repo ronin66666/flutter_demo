@@ -74,11 +74,4 @@ class TimerBloc extends Bloc<TimerEvent, TimerState>{
     emit(event.duration > 0 ? TimerRunInProgress(event.duration) : TimerRunComplete());
   }
 
-
-
-
-
-
-
-
 }
